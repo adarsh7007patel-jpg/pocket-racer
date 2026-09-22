@@ -1,0 +1,24 @@
+kind = "mobile"
+previewPath = "/"
+title = "Pocket Racer"
+description = "A fast, replayable mobile arcade racing game where you dodge traffic, build a score, and chase your best run."
+version = "1.0.0"
+id = "artifacts/pocket-racer"
+router = "expo-domain"
+
+[[services]]
+name = "expo"
+ensurePreviewReachable = "/status"
+paths = [ "/" ]
+localPort = 23553
+
+[services.development]
+run = "pnpm --filter @workspace/pocket-racer run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/pocket-racer", "run", "build" ]
+run = [ "pnpm", "--filter", "@workspace/pocket-racer", "run", "serve" ]
+
+[services.env]
+PORT = "23553"
+BASE_PATH = "/"

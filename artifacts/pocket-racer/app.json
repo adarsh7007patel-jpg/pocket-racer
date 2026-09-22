@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Pocket Racer",
+    "slug": "pocket-racer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/pocket-racer-icon.png",
+    "scheme": "pocket-racer",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.pocketracer.game",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/pocket-racer-icon.png",
+        "backgroundColor": "#0B1220"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/pocket-racer-icon.png"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
