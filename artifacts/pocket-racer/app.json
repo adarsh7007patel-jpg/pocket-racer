@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Pocket Racer",
-    "slug": "pocket-racer-",
+    "slug": "pocket-racer",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/pocket-racer-icon.png",
@@ -16,7 +16,7 @@
     },
     "extra": {
       "eas": {
-        8aad5644-03b0-4174-88be-9c8971832990
+        "projectId": "8aad5644-03b0-4174-88be-9c8971832990"
       }
     }
   }
