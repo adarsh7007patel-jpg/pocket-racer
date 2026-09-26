@@ -6,6 +6,8 @@
     "orientation": "portrait",
     "scheme": "pocketracer",
     "platforms": ["android", "ios", "web"],
+    "main": "expo-router/entry",
+    "plugins": ["expo-router"],
     "android": {
       "package": "com.pocketracer.game"
     },
